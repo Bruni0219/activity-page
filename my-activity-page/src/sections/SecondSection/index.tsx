@@ -1,21 +1,42 @@
-import{FC} from "react";
+import{FC,useState} from "react";
 import CartoonImage from '../../image/cartoon.jpg';
 import MovieImage from '../../image/movie.png';
 import LifeImage from '../../image/life.jpg';
 import FoodImage from '../../image/food.jpg';
 
-import sytles from './styles.module.scss';
+import styles from './styles.module.scss';
+import classNames from "classnames";
 
-
+const tabs=[
+    {
+        key:'cartoon',
+        title:'動畫'
+    },
+    {
+        key:'food',
+        title:'美食'
+    },
+    {
+        key:'movie'
+        ,title:'電影'
+    },
+    {
+        key:'life',
+        title:'生活'
+    },
+];
 const SecondSection:FC = () => {
+    const [activeTab, setActiveTab] = useState<string>('cartoon');
     return (
-        <div className={sytles.secondSection}>
+        <div className={styles.secondSection}>
             {/*Tabs */}
             <ul>
-                <li>動畫</li>
-                <li>美食</li>
-                <li>電影</li>
-                <li>生活</li>
+                {tabs.map(tab =>(
+                    <li key={tab.key} onClick={()=>setActiveTab(tab.key)}>  
+                        <span>{tab.title}</span>                        
+                        <span className={classNames(styles.line,{[styles.visible]:activeTab===tab.key})} />
+                    </li>
+                ))} 
             </ul>
             
             {/*Tab Content */}

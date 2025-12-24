@@ -6,9 +6,25 @@
         justify-content: space-around;
 
         li{
+            position: relative;
             color:white;
             list-style: none;
 
+            .line{
+                position:absolute;
+                bottom: -5px;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 4px;
+                width: 100%;
+                background: yellow;
+                opacity: 0;
+                transition: opacity .3s;
+            
+            &.visible{
+                opacity: 1;
+            }
+            }
         }
     }
 

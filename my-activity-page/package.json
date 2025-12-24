@@ -1,6 +1,5 @@
 {
   "homepage": "https://bruni0219.github.io/Learning-React/",
-
   "name": "my-activity-page",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +12,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "classnames": "^2.5.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-scripts": "5.0.1",
@@ -23,7 +23,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
