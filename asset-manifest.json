@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/Learning-React/static/css/main.d679f3d4.css",
-    "main.js": "/Learning-React/static/js/main.c4f8bfd6.js",
+    "main.css": "/Learning-React/static/css/main.3ea443b9.css",
+    "main.js": "/Learning-React/static/js/main.d402eda3.js",
     "static/media/comment.jpg": "/Learning-React/static/media/comment.f97981ea5a8b952f04a5.jpg",
     "static/media/banner.jpg": "/Learning-React/static/media/banner.866d8d180836db5902b1.jpg",
+    "static/media/movie.png": "/Learning-React/static/media/movie.a3af58b5da1f50c15a25.png",
     "static/media/title2.jpg": "/Learning-React/static/media/title2.90772118bcb945f478b2.jpg",
     "static/media/title1.jpg": "/Learning-React/static/media/title1.8ba117974bc4e9ec47c1.jpg",
+    "static/media/food.jpg": "/Learning-React/static/media/food.aebf6065de4982b2a536.jpg",
+    "static/media/cartoon.jpg": "/Learning-React/static/media/cartoon.7a7130c5df2bfbe76eca.jpg",
+    "static/media/life.jpg": "/Learning-React/static/media/life.b78b93cdc7cb81b5f107.jpg",
     "index.html": "/Learning-React/index.html",
-    "main.d679f3d4.css.map": "/Learning-React/static/css/main.d679f3d4.css.map",
-    "main.c4f8bfd6.js.map": "/Learning-React/static/js/main.c4f8bfd6.js.map"
+    "main.3ea443b9.css.map": "/Learning-React/static/css/main.3ea443b9.css.map",
+    "main.d402eda3.js.map": "/Learning-React/static/js/main.d402eda3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d679f3d4.css",
-    "static/js/main.c4f8bfd6.js"
+    "static/css/main.3ea443b9.css",
+    "static/js/main.d402eda3.js"
   ]
 }
