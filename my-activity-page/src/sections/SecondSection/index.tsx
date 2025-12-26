@@ -1,32 +1,32 @@
-import { FC, useEffect, useRef, useState } from "react";
-import CartoonImage from "../../image/cartoon.jpg";
-import MovieImage from "../../image/movie.png";
-import LifeImage from "../../image/life.jpg";
-import FoodImage from "../../image/food.jpg";
-import LogoImage from "../../image/logo.png";
+import { FC, useEffect, useRef, useState } from 'react';
+import CartoonImage from '../../image/cartoon.jpg';
+import MovieImage from '../../image/movie.png';
+import LifeImage from '../../image/life.jpg';
+import FoodImage from '../../image/food.jpg';
+import LogoImage from '../../image/logo.png';
 
-import styles from "./styles.module.scss";
-import classNames from "classnames";
+import styles from './styles.module.scss';
+import classNames from 'classnames';
 
 const tabs = [
   {
-    key: "cartoon",
-    title: "動畫",
+    key: 'cartoon',
+    title: '動畫',
     Image: CartoonImage,
   },
   {
-    key: "food",
-    title: "美食",
+    key: 'food',
+    title: '美食',
     Image: FoodImage,
   },
   {
-    key: "movie",
-    title: "電影",
+    key: 'movie',
+    title: '電影',
     Image: MovieImage,
   },
   {
-    key: "life",
-    title: "生活",
+    key: 'life',
+    title: '生活',
     Image: LifeImage,
   },
 ];
@@ -34,7 +34,7 @@ const tabs = [
 const TAB_HIGHT = 56;
 
 const SecondSection: FC = () => {
-  const [activeTab, setActiveTab] = useState<string>("cartoon");
+  const [activeTab, setActiveTab] = useState<string>('cartoon');
   const [isFixed, setIsFixed] = useState<boolean>(false);
 
   const secondSectionRef = useRef<HTMLDivElement>(null);
@@ -45,7 +45,7 @@ const SecondSection: FC = () => {
     const tabContentEL = document.querySelector(`[data-id="${key}"]`);
 
     if (tabContentEL) {
-      tabContentEL.scrollIntoView({ behavior: "smooth" });
+      tabContentEL.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -54,12 +54,11 @@ const SecondSection: FC = () => {
       const { top } = secondSectionRef.current.getBoundingClientRect();
       setIsFixed(top <= 0);
 
-      const secitionNodes =
-        secondSectionRef.current.querySelectorAll("section");
+      const secitionNodes = secondSectionRef.current.querySelectorAll('section');
 
       Array.from(secitionNodes).forEach((sectionEL) => {
         const { top } = sectionEL.getBoundingClientRect();
-        const key = sectionEL.getAttribute("data-id") || "";
+        const key = sectionEL.getAttribute('data-id') || '';
 
         if (top <= TAB_HIGHT) {
           setActiveTab(key);
@@ -69,10 +68,10 @@ const SecondSection: FC = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener('scroll', onScroll);
 
     return () => {
-      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener('scroll', onScroll);
     };
   }, []);
 
@@ -102,9 +101,7 @@ const SecondSection: FC = () => {
         ))}
       </div>
 
-      <div
-        className={classNames(styles.btnWrapper, { [styles.visible]: isFixed })}
-      >
+      <div className={classNames(styles.btnWrapper, { [styles.visible]: isFixed })}>
         <img src={LogoImage} alt="LOGO" />
 
         <a href="https://www.bilibili.com/" target="_blank">
