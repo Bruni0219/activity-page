@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Learning-React/static/css/main.2e7dea5b.css",
-    "main.js": "/Learning-React/static/js/main.1a56dd15.js",
-    "static/media/comment.jpg": "/Learning-React/static/media/comment.f97981ea5a8b952f04a5.jpg",
-    "static/media/banner.jpg": "/Learning-React/static/media/banner.866d8d180836db5902b1.jpg",
-    "static/media/movie.png": "/Learning-React/static/media/movie.a3af58b5da1f50c15a25.png",
-    "static/media/title2.jpg": "/Learning-React/static/media/title2.90772118bcb945f478b2.jpg",
-    "static/media/title1.jpg": "/Learning-React/static/media/title1.8ba117974bc4e9ec47c1.jpg",
-    "static/media/food.jpg": "/Learning-React/static/media/food.aebf6065de4982b2a536.jpg",
-    "static/media/cartoon.jpg": "/Learning-React/static/media/cartoon.7a7130c5df2bfbe76eca.jpg",
-    "static/media/life.jpg": "/Learning-React/static/media/life.b78b93cdc7cb81b5f107.jpg",
-    "static/media/logo.png": "/Learning-React/static/media/logo.2955a1434b1918b5f3dc.png",
-    "index.html": "/Learning-React/index.html",
-    "main.2e7dea5b.css.map": "/Learning-React/static/css/main.2e7dea5b.css.map",
-    "main.1a56dd15.js.map": "/Learning-React/static/js/main.1a56dd15.js.map"
+    "main.css": "/activity-page/static/css/main.82f33dbd.css",
+    "main.js": "/activity-page/static/js/main.11065698.js",
+    "static/media/comment.jpg": "/activity-page/static/media/comment.f97981ea5a8b952f04a5.jpg",
+    "static/media/banner.jpg": "/activity-page/static/media/banner.866d8d180836db5902b1.jpg",
+    "static/media/movie.png": "/activity-page/static/media/movie.a3af58b5da1f50c15a25.png",
+    "static/media/title2.jpg": "/activity-page/static/media/title2.90772118bcb945f478b2.jpg",
+    "static/media/title1.jpg": "/activity-page/static/media/title1.8ba117974bc4e9ec47c1.jpg",
+    "static/media/food.jpg": "/activity-page/static/media/food.aebf6065de4982b2a536.jpg",
+    "static/media/cartoon.jpg": "/activity-page/static/media/cartoon.7a7130c5df2bfbe76eca.jpg",
+    "static/media/life.jpg": "/activity-page/static/media/life.b78b93cdc7cb81b5f107.jpg",
+    "static/media/logo.png": "/activity-page/static/media/logo.2955a1434b1918b5f3dc.png",
+    "index.html": "/activity-page/index.html",
+    "main.82f33dbd.css.map": "/activity-page/static/css/main.82f33dbd.css.map",
+    "main.11065698.js.map": "/activity-page/static/js/main.11065698.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e7dea5b.css",
-    "static/js/main.1a56dd15.js"
+    "static/css/main.82f33dbd.css",
+    "static/js/main.11065698.js"
   ]
 }
